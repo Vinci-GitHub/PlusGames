@@ -1,0 +1,47 @@
+version: "3"
+
+volumes:
+  db-data:
+
+services:
+  backend:
+    build: "./backend"
+    ports:
+      - "8000:8000"
+    command:
+      bash -c "backend manage.py makemigrations --settings=config.settings.local &&
+      backend manage.py migrate --settings=config.settings.local &&
+      backend manage.py runserver 0.0.0.0:8000 --settings=config.settings.local "
+    tty: true
+    depends_on:
+      - db
+
+
+  #frontend:
+   # build: './frontend'
+    #ports:
+    #  - '8080:8080'
+   # volumes:
+   #   - ./frontend:/app
+   # command: [ "npm", "run", "serve" ]
+
+  db:
+    image: postgres
+    volumes:
+      - "db-data:/var/lib/postgresql/data"
+    environment:
+      - "POSTGRES_DB=postgres"
+      - "POSTGRES_USER=postgres"
+      - "POSTGRES_PASSWORD=postgres"
+    ports:
+      - "5432:5432"
+
+  nginx:
+    build: "./nginx/"
+    ports:
+      - "80:80"
+    volumes:
+      - "./static/:/opt/apps/static/"                     # nginxコンテナにてホストのstaticからコンテナへマウント
+      - "staticdata:/opt/apps/static/"                    # volumesを用いたnginxとのコンテナ間のリソース共有
+    depends_on:
+      - backend                                  # 1. docker-compose up時にbackから立ち上げる
