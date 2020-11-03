@@ -8,10 +8,10 @@ services:
     build: "./backend"
     ports:
       - "8000:8000"
-    command:
-      bash -c "backend manage.py makemigrations --settings=config.settings.local &&
-      backend manage.py migrate --settings=config.settings.local &&
-      backend manage.py runserver 0.0.0.0:8000 --settings=config.settings.local "
+    #command:
+    #  bash -c "backend manage.py makemigrations --settings=config.settings.local &&
+    #  backend manage.py migrate --settings=config.settings.local &&
+     # backend manage.py runserver 0.0.0.0:8000 --settings=config.settings.local "
     tty: true
     depends_on:
       - db
@@ -40,8 +40,5 @@ services:
     build: "./nginx/"
     ports:
       - "80:80"
-    volumes:
-      - "./static/:/opt/apps/static/"                     # nginxコンテナにてホストのstaticからコンテナへマウント
-      - "staticdata:/opt/apps/static/"                    # volumesを用いたnginxとのコンテナ間のリソース共有
     depends_on:
       - backend                                  # 1. docker-compose up時にbackから立ち上げる
