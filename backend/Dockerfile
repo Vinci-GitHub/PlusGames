@@ -17,3 +17,4 @@ RUN pip install --upgrade pip && \
 
 COPY ./ /backend/
 
+EXPOSE 8000

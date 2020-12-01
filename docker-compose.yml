@@ -8,22 +8,22 @@ services:
     build: "./backend"
     ports:
       - "8000:8000"
-    #command:
-    #  bash -c "backend manage.py makemigrations --settings=config.settings.local &&
-    #  backend manage.py migrate --settings=config.settings.local &&
-     # backend manage.py runserver 0.0.0.0:8000 --settings=config.settings.local "
+    volumes:
+      - ./backend:/backend
+    command: python3 manage.py runserver 0.0.0.0:8000
     tty: true
     depends_on:
       - db
 
-
-  #frontend:
-   # build: './frontend'
-    #ports:
-    #  - '8080:8080'
-   # volumes:
-   #   - ./frontend:/app
-   # command: [ "npm", "run", "serve" ]
+#  frontend:
+#    build: './frontend'
+#    ports:
+#      - '8080:8080'
+#    volumes:
+#      - ./frontend:/frontend
+#    tty: true
+#    stdin_open: true
+#    command: [ "npm", "run", "serve" ]
 
   db:
     image: postgres

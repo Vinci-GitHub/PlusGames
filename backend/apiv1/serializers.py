@@ -1,13 +1,9 @@
 from rest_framework import serializers
 
-from shop.models import Game
+from shop.models import Book
 
 
-class GameSerializer(serializers.ModelSerializer):
-    """ゲームモデル用のシリアライザ"""
-
+class BookSerializer(serializers.ModelSerializer):
     class Meta:
-        # 対象のモデルクラスを指定
-        model = Game
-        # 利用するモデルのフィールドを指定
+        model = Book
         fields = ['id', 'title', 'price']
