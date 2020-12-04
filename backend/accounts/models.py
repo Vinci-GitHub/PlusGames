@@ -1,6 +1,6 @@
 # モデルはmodels.Modelを継承する
 from django.db import models
-
+# インポート
 from django.contrib.auth.models import AbstractUser
 
 
