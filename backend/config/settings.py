@@ -1,8 +1,10 @@
 import os
 
+# 日付・時刻操作モジュール
+from datetime import timedelta
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
@@ -14,7 +16,6 @@ SECRET_KEY = '7d5_*c#y2@62uf4ly=tbv(o+wodus@%t!^0-pl1i=k$^95xh7d'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -28,10 +29,11 @@ INSTALLED_APPS = [
 
     # 3rd party apps
     'rest_framework',
+    'djoser',
+    'corsheaders',
 
     # My applications
     'apiv1.apps.Apiv1Config',
-    'shop.apps.ShopConfig',
     'accounts.apps.AccountsConfig'
 ]
 
@@ -43,6 +45,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # django cors headersを読み込み
+    'corsheaders.middleware.CorsMiddleware'
 ]
 
 ROOT_URLCONF = 'config.urls'
@@ -65,7 +69,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'config.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
@@ -79,7 +82,6 @@ DATABASES = {
         'PORT': 5432
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
@@ -99,11 +101,9 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Authentication
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = 'rest_framework:login'
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
@@ -118,18 +118,40 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
-
+#################################################
 # REST Framework
+#################################################
 REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': [
+    # アクセス許可を判断するクラスを指定します。views.py の処理を実行する際に判断します
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    ),
+    # 認証に使うクラスを指定します
+    'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework.authentication.BasicAuthentication',
         'rest_framework.authentication.SessionAuthentication',
-    ],
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+    ),
+    'NON_FIELD_ERRORS_KEY': 'detail',
+    'TEST_REQUEST_DEFAULT_FORMAT': 'json'
 }
+
+
+SIMPLE_JWT = {
+    # トークンをJWTに設定
+    'AUTH_HEADER_TYPES': ('JWT',),
+    # トークンの持続時間の設定
+    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60)
+}
+
+# CORSの設定
+# すべて許可
+CORS_ORIGIN_ALLOW_ALL = True
+
+
 
 AUTH_USER_MODEL = 'accounts.CustomUser'
