@@ -1,12 +1,14 @@
+from django.conf.urls import url, include
 from django.contrib import admin
-from django.urls import path, include
-from django.views.generic import TemplateView
+from django.urls import path
+from apiv1 import views
+from apiv1.urls import router as apiv1_router
+from rest_framework import routers
 
+api_router = routers.DefaultRouter()
+api_router.registry.extend(apiv1_router.registry)
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', TemplateView.as_view(template_name='index.html')),
-    path('api-auth/', include('rest_framework.urls')),
-    path('api/v1/', include('apiv1.urls')),
-    # api/authアプリケーションのURLconf読み込み
-    path('api/auth/', include('djoser.urls.jwt')),
+    # path('', views.TestView, name='test'),
+    url(r'^v2/', include(api_router.urls)),
 ]

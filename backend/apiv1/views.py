@@ -1,14 +1,10 @@
 from rest_framework import viewsets
-
-from rest_framework.permissions import IsAuthenticatedOrReadOnly
-
-from shop.models import Book
-from .serializers import BookSerializer
+from .import models
+from .import serializer
 
 
-class BookViewSet(viewsets.ModelViewSet):
-    """BookオブジェクトのCRUDをおこなうAPI"""
+class ThreadViewSet(viewsets.ModelViewSet):
+    """CURD"""
 
-    queryset = Book.objects.all()
-    serializer_class = BookSerializer
-    permission_classes = [IsAuthenticatedOrReadOnly]
+    queryset = models.Thread.objects.all()
+    serializer_class = serializer.ThreadSerializer
