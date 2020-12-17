@@ -15,15 +15,15 @@ services:
     depends_on:
       - db
 
-#  frontend:
-#    build: './frontend'
-#    ports:
-#      - '8080:8080'
-#    volumes:
-#      - ./frontend:/frontend
-#    tty: true
-#    stdin_open: true
-#    command: [ "npm", "run", "serve" ]
+  frontend:
+    build: 'frontend'
+    ports:
+      - '8080:8080'
+    volumes:
+      - ./frontend:/frontend
+    tty: true
+    stdin_open: true
+    command: [ "npm", "run", "serve" ]
 
   db:
     image: postgres

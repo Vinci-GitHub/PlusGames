@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from .import models
-from .import serializer
+from . import models
+from . import serializer
 
 
 class ThreadViewSet(viewsets.ModelViewSet):
@@ -8,3 +8,6 @@ class ThreadViewSet(viewsets.ModelViewSet):
 
     queryset = models.Thread.objects.all()
     serializer_class = serializer.ThreadSerializer
+
+
+

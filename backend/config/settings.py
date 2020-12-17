@@ -31,10 +31,12 @@ INSTALLED_APPS = [
     'rest_framework',
     'djoser',
     'corsheaders',
+    'webpack_loader',
 
     # My applications
     'apiv1.apps.Apiv1Config',
-    'accounts.apps.AccountsConfig'
+    'accounts.apps.AccountsConfig',
+    'trade.apps.TradeConfig'
 ]
 
 MIDDLEWARE = [
@@ -51,10 +53,12 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'config.urls'
 
+
+# BASE_DIR.parent / 'frontend' / 'templates'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -118,18 +122,26 @@ USE_L10N = True
 
 USE_TZ = True
 
-# Static files (CSS, JavaScript, Images)
+
+# # # Static files (CSS, JavaScript, Images)
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+# # STATICFILES_DIRS = (
+# #     # webpack がここにバンドルしたファイルを吐き出すように設定済み
+# #     BASE_DIR.parent / 'frontend' / 'dist',
+# # )
+# STATIC_ROOT = BASE_DIR / 'static'
 
 #################################################
 # REST Framework
 #################################################
 REST_FRAMEWORK = {
+    'PAGE_SIZE':4,
+    'DEFAULT_PAGINATION_CLASS':
+        'rest_framework.pagination.PageNumberPagination',
     # アクセス許可を判断するクラスを指定します。views.py の処理を実行する際に判断します
-    'DEFAULT_PERMISSION_CLASSES': (
-        'rest_framework.permissions.IsAuthenticated',
-    ),
+    # 'DEFAULT_PERMISSION_CLASSES': (
+    #     'rest_framework.permissions.IsAuthenticated',
+    # ),
     # 認証に使うクラスを指定します
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework.authentication.BasicAuthentication',
@@ -151,6 +163,12 @@ SIMPLE_JWT = {
 # CORSの設定
 # すべて許可
 CORS_ORIGIN_ALLOW_ALL = True
+# CORS_ORIGIN_ALLOW_ALL = False
+# CORS_ORIGIN_WHITELIST =(
+#     'http://localhost:8080',
+#     'http://127.0.0.1:8080',
+# )
+
 
 
 
