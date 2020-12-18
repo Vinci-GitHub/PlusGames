@@ -153,12 +153,12 @@ REST_FRAMEWORK = {
 }
 
 
-SIMPLE_JWT = {
-    # トークンをJWTに設定
-    'AUTH_HEADER_TYPES': ('JWT',),
-    # トークンの持続時間の設定
-    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60)
-}
+# SIMPLE_JWT = {
+#     # トークンをJWTに設定
+#     'AUTH_HEADER_TYPES': ('JWT',),
+#     # トークンの持続時間の設定
+#     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60)
+# }
 
 # CORSの設定
 # すべて許可
