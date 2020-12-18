@@ -3,6 +3,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from .models import CustomUser
 from .serializers import AccountsSerializer
+from .authentication import generate_access_token
 
 # データを設定できるようにレジスタ関数を作成する
 
@@ -20,7 +21,28 @@ def register(request):
     return Response(serializer.data)
 
 
+@api_view(['POST'])
+def login(request):
+    email = request.data.get('email')
+    password = request.data.get('password')
 
+    accounts = CustomUser.objects.filter(email=email).first()
+
+    if accounts is None:
+        raise exceptions.AuthenticationFailed('User not found!')
+
+    if not accounts.check_password(password):
+        raise exceptions.AuthenticationFailed('Incorrect password')
+
+    response = Response()
+
+    token = generate_access_token(accounts)
+    response.set_cookie(key='jwt', value=token, httponly=True)
+    response.data = {
+        'jwt': token
+    }
+
+    return response
 
 @api_view(['GET'])
 def accounts(request):
