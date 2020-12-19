@@ -28,7 +28,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33b4fe0e-081e-40f1-b3df-2b2f10703e23" name="デフォルト変更リスト" comment="" />
+    <list default="true" id="33b4fe0e-081e-40f1-b3df-2b2f10703e23" name="デフォルト変更リスト" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,10 +170,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="486" y="31" key="CommitChangelistDialog2/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1607750280708" />
-    <state x="200" y="145" width="1720" height="857" key="DiffContextDialog" timestamp="1608365862366">
+    <state x="200" y="145" width="1720" height="857" key="DiffContextDialog" timestamp="1608366231630">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="200" y="145" width="1720" height="857" key="DiffContextDialog/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1608365862366" />
+    <state x="200" y="145" width="1720" height="857" key="DiffContextDialog/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1608366231630" />
     <state width="272" height="539" key="HiddenNamespacesPopup" timestamp="1608102426137">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -189,10 +191,10 @@
     </state>
     <state x="2955" y="269" key="SettingsEditor/0.23.2048.1257/2048.63.1920.1057@2048.63.1920.1057" timestamp="1605492383958" />
     <state x="364" y="231" width="1363" height="722" key="SettingsEditor/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1608364834892" />
-    <state x="100" y="123" width="1720" height="857" key="ShowDiffWithBranchDialog" timestamp="1608365507261">
+    <state x="670" y="115" width="1720" height="857" key="ShowDiffWithBranchDialog" timestamp="1608366231630">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="100" y="123" width="1720" height="857" key="ShowDiffWithBranchDialog/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1608365507261" />
+    <state x="670" y="115" width="1720" height="857" key="ShowDiffWithBranchDialog/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1608366231630" />
     <state x="690" y="290" width="540" height="540" key="StructurePopup" timestamp="1607741586520">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
