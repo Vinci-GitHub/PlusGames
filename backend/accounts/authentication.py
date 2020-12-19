@@ -2,6 +2,10 @@ import jwt
 import datetime
 from django.conf import settings
 
+
+
+
+# コメント
 def generate_access_token(accounts):
     payload = {
         'accounts_id': accounts.id,
