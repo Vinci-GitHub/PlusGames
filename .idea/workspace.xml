@@ -45,6 +45,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="JupyterTrust" id="46872935-2aab-45bb-a1aa-c17965454187" />
   <component name="ProjectId" id="1jdWNYaRyibV2Yy24fnJTctALjA" />
@@ -152,11 +153,11 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="736" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1608067278987" />
-    <state x="676" y="360" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608358424927">
+    <state x="676" y="360" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608365506804">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="2724" y="400" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2048.1257/2048.63.1920.1057@2048.63.1920.1057" timestamp="1604317079618" />
-    <state x="676" y="360" key="#com.intellij.fileTypes.FileTypeChooser/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1608358424927" />
+    <state x="676" y="360" key="#com.intellij.fileTypes.FileTypeChooser/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1608365506804" />
     <state x="698" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607910792932">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -181,11 +182,19 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="547" y="283" key="IDE.errors.dialog/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1607897258237" />
-    <state x="364" y="231" key="SettingsEditor" timestamp="1608364660308">
+    <state x="764" y="195" key="RollbackChangesDialog" timestamp="1608364854435">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="764" y="195" key="RollbackChangesDialog/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1608364854435" />
+    <state x="364" y="231" width="1363" height="722" key="SettingsEditor" timestamp="1608364834892">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="2955" y="269" key="SettingsEditor/0.23.2048.1257/2048.63.1920.1057@2048.63.1920.1057" timestamp="1605492383958" />
-    <state x="364" y="231" key="SettingsEditor/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1608364660308" />
+    <state x="364" y="231" width="1363" height="722" key="SettingsEditor/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1608364834892" />
+    <state x="100" y="123" width="1720" height="857" key="ShowDiffWithBranchDialog" timestamp="1608365507261">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="100" y="123" width="1720" height="857" key="ShowDiffWithBranchDialog/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1608365507261" />
     <state x="690" y="290" width="540" height="540" key="StructurePopup" timestamp="1607741586520">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
