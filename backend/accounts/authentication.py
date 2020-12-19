@@ -15,7 +15,7 @@ def generate_access_token(accounts):
 
     return jwt.encode(payload, settings.SECRET_KEY, algorithm='HS256').decode('utf-8')
 
-# コメント追加
+
 class JWTAuthentication(BaseAuthentication):
 
     def authenticate(self, request):
