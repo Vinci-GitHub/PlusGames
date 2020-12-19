@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33b4fe0e-081e-40f1-b3df-2b2f10703e23" name="デフォルト変更リスト" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="46872935-2aab-45bb-a1aa-c17965454187" />
+  <component name="ProjectId" id="1jdWNYaRyibV2Yy24fnJTctALjA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新規スクラッチ・ファイル" value="Python" />
+    <property name="current_page" value="1" />
+    <property name="font_size" value="12" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="notes" value="- 1ポモ&#10;    - [x]  メンタさんに返信する&#10;&#10;    →Django作成中&#10;&#10;    trade/apitrade/urls.pyで→int:pk  &#10;&#10;    serializersのfileds　all&#10;&#10;    apiのviewsの中身&#10;&#10;2ポモ&#10;&#10;- [ ]  tradeのモデルを実際にmigrateしてDBに反映&#10;&#10;    apiから項目入力でpostできるかを試して成功&#10;&#10;    管理画面に反映されておらず&#10;&#10;    admin.pyにtradeの追記がなかったため&#10;&#10;&#10;vueとdjangoの連携のベスプラがわからず&#10;方法としてはwebpackを使う方法か&#10;Vue cliを使ってやる方法があって&#10;実践的な技術書ではどっちも書かれておらず&#10;どうやって連携させているのか不明で止まってしまった&#10;&#10;ベストプラクティスだけで学習して行きたいと思うがゆえに&#10;あんまり理解ができないのに&#10;浅い理解で決断を下そうとするから時間がかかっている&#10;&#10;完了主義を実践していこう&#10;また、ベスプラに関してはやっていってわかることもあるかとは思うし&#10;&#10;学習したことをToolとして活用しまくることで手続き型の記憶にする&#10;&#10;思い込む力をおれは別に使っていたと気づいた&#10;原因は自分の不安からくるものだった&#10;本当にあっているかな、、、&#10;間違っていたら恥ずかしいとか、、、&#10;できないと周りに思われたくないとか、できない自分を見るのが嫌だとか、、、&#10;そういう思考が働いていたと気づいた&#10;&#10;シンプルに&#10;チャレンジを楽しむ&#10;わからないところは5秒考えて出てこなかったら&#10;調べたり、勉強したところだったら振り返ること&#10;&#10;効率的にを考えすぎて動けてない&#10;少ない情報でも見つけたら方法を比較して整理して&#10;行動すればよい&#10;&#10;&#10;&#10;トライして、成長していけるのに失敗しない方法ばかりとっていた&#10;例)検索しまくって浅い知識でどれがいいのかを判断する&#10;&#10;でも違うどんどん行動していく&#10;失敗してもいい&#10;チャレンジしないと全然成長しない" />
+    <property name="page_titles" value="Notes&#10;views.py" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="views.py" value="" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="PlusGames" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="PlusGames" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/frontends" />
+      <recent name="$PROJECT_DIR$/backend/trade" />
+      <recent name="$PROJECT_DIR$/backend" />
+      <recent name="$PROJECT_DIR$/nginx/conf" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33b4fe0e-081e-40f1-b3df-2b2f10703e23" name="デフォルト変更リスト" comment="" />
+      <created>1604134409849</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604134409849</updated>
+      <workItem from="1604134410871" duration="5339000" />
+      <workItem from="1604321406520" duration="7291000" />
+      <workItem from="1604720186157" duration="135000" />
+      <workItem from="1604720329530" duration="3572000" />
+      <workItem from="1604735412269" duration="5771000" />
+      <workItem from="1604883120352" duration="688000" />
+      <workItem from="1604886103695" duration="1268000" />
+      <workItem from="1604964383460" duration="1314000" />
+      <workItem from="1605228540411" duration="10664000" />
+      <workItem from="1606041880118" duration="1774000" />
+      <workItem from="1606609703240" duration="22803000" />
+      <workItem from="1606785395691" duration="35488000" />
+      <workItem from="1607571056014" duration="5104000" />
+      <workItem from="1607675064662" duration="2361000" />
+      <workItem from="1607728945772" duration="284000" />
+      <workItem from="1607729954981" duration="905000" />
+      <workItem from="1607730917951" duration="9268000" />
+      <workItem from="1607752778905" duration="685000" />
+      <workItem from="1607754422437" duration="392000" />
+      <workItem from="1607754888163" duration="296000" />
+      <workItem from="1607755204998" duration="7306000" />
+      <workItem from="1607816366474" duration="56181000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2737" y="422" key="#Notifications" timestamp="1604318058587">
+      <screen x="2048" y="63" width="1920" height="1057" />
+    </state>
+    <state x="2737" y="422" key="#Notifications/0.23.2048.1257/2048.63.1920.1057@2048.63.1920.1057" timestamp="1604318058587" />
+    <state x="843" y="373" width="675" height="356" key="#Vim_Emulation" timestamp="1607739838327">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="843" y="373" width="675" height="356" key="#Vim_Emulation/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1607739838327" />
+    <state x="736" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608067278987">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="736" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1608067278987" />
+    <state x="676" y="360" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608358424927">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2724" y="400" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2048.1257/2048.63.1920.1057@2048.63.1920.1057" timestamp="1604317079618" />
+    <state x="676" y="360" key="#com.intellij.fileTypes.FileTypeChooser/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1608358424927" />
+    <state x="698" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607910792932">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="698" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1607910792932" />
+    <state x="664" y="387" key="#通知" timestamp="1606683390640">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="664" y="387" key="#通知/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1606683390640" />
+    <state x="486" y="31" key="CommitChangelistDialog2" timestamp="1607750280708">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="486" y="31" key="CommitChangelistDialog2/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1607750280708" />
+    <state x="92" y="122" width="1720" height="857" key="DiffContextDialog" timestamp="1608364743800">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="92" y="122" width="1720" height="857" key="DiffContextDialog/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1608364743800" />
+    <state width="272" height="539" key="HiddenNamespacesPopup" timestamp="1608102426137">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="272" height="539" key="HiddenNamespacesPopup/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1608102426137" />
+    <state x="547" y="283" key="IDE.errors.dialog" timestamp="1607897258237">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="547" y="283" key="IDE.errors.dialog/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1607897258237" />
+    <state x="364" y="231" key="SettingsEditor" timestamp="1608364660308">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2955" y="269" key="SettingsEditor/0.23.2048.1257/2048.63.1920.1057@2048.63.1920.1057" timestamp="1605492383958" />
+    <state x="364" y="231" key="SettingsEditor/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1608364660308" />
+    <state x="690" y="290" width="540" height="540" key="StructurePopup" timestamp="1607741586520">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="690" y="290" width="540" height="540" key="StructurePopup/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1607741586520" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1607743791130">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1607743791130" />
+    <state x="100" y="123" width="1720" height="857" key="dock-window-1" timestamp="1607749951506">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="100" y="123" width="1720" height="857" key="dock-window-1/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1607749951506" />
+    <state x="637" y="150" width="645" height="783" key="find.popup" timestamp="1608018715676">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="637" y="150" width="645" height="783" key="find.popup/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1608018715676" />
+    <state x="614" y="466" width="582" height="578" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1607807551169">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="614" y="466" width="582" height="578" key="org.intellij.images.editor.actions.BackgroundImageDialog/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1607807551169" />
+    <state x="610" y="275" width="700" height="530" key="recent.locations.popup" timestamp="1607741521745">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="610" y="275" width="700" height="530" key="recent.locations.popup/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1607741521745" />
+    <state x="1093" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1608348629877">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="3153" y="298" width="670" height="676" key="search.everywhere.popup/0.23.2048.1257/2048.63.1920.1057@2048.63.1920.1057" timestamp="1605309470662" />
+    <state x="1093" y="258" width="670" height="676" key="search.everywhere.popup/1920.23.2048.1257/0.23.1920.1057@0.23.1920.1057" timestamp="1608348629877" />
+  </component>
+</project>
