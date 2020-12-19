@@ -1,13 +1,9 @@
 from rest_framework import exceptions
 from rest_framework.decorators import api_view
-from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
-from rest_framework.views import APIView
-
 from .models import CustomUser
 from .serializers import AccountsSerializer
-from .authentication import generate_access_token, JWTAuthentication
-
+from .authentication import generate_access_token
 
 # データを設定できるようにレジスタ関数を作成する
 
@@ -47,20 +43,6 @@ def login(request):
     }
 
     return response
-
-
-class AuthenticatedUser(APIView):
-    authentication_classes = [JWTAuthentication]
-    permission_classes = [IsAuthenticated]
-
-
-    def get(self, request):
-        serializer = AccountsSerializer(request.accounts)
-
-        return Response({
-        'data': serializer.data
-        })
-
 
 @api_view(['GET'])
 def accounts(request):
