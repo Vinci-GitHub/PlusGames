@@ -6,3 +6,10 @@
 /dataSources.local.xml
 # エディターベースの HTTP クライアントリクエスト
 /httpRequests/
+
+
+__pycache__/
+
+*.py[cod]
+
+*$py.class
