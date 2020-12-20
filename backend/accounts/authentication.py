@@ -7,7 +7,6 @@ from rest_framework.authentication import BaseAuthentication
 
 
 
-# コメント
 def generate_access_token(accounts):
     payload = {
         'accounts_id': accounts.id,
