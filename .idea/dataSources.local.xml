@@ -3,7 +3,7 @@
   <component name="dataSourceStorageLocal">
     <data-source name="db" uuid="cc655415-8334-465a-89f8-078588a1f789">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
-      <auth-provider>no-auth</auth-provider>
+      <secret-storage>forget</secret-storage>
       <schema-mapping />
     </data-source>
     <data-source name="@docker" uuid="82783fb5-34f7-45f4-99e6-46a61dad3138">
@@ -11,12 +11,12 @@
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
-      <secret-storage>master_key</secret-storage>
+      <secret-storage>forget</secret-storage>
       <user-name>postgres</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="database" negative="1">
-            <node kind="schema" negative="1" />
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
           </node>
         </introspection-scope>
       </schema-mapping>
