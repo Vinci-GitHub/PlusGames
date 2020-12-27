@@ -31,8 +31,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'djoser',
     'corsheaders',
-    'webpack_loader',
-
     # My applications
     'apiv1.apps.Apiv1Config',
     'accounts.apps.AccountsConfig',
@@ -52,7 +50,6 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'config.urls'
-
 
 # BASE_DIR.parent / 'frontend' / 'templates'
 TEMPLATES = [
@@ -122,7 +119,6 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # # # Static files (CSS, JavaScript, Images)
 STATIC_URL = '/static/'
 # # STATICFILES_DIRS = (
@@ -135,7 +131,7 @@ STATIC_URL = '/static/'
 # REST Framework
 #################################################
 REST_FRAMEWORK = {
-    'PAGE_SIZE':4,
+    'PAGE_SIZE': 4,
     'DEFAULT_PAGINATION_CLASS':
         'rest_framework.pagination.PageNumberPagination',
     # アクセス許可を判断するクラスを指定します。views.py の処理を実行する際に判断します
@@ -152,7 +148,6 @@ REST_FRAMEWORK = {
     'TEST_REQUEST_DEFAULT_FORMAT': 'json'
 }
 
-
 # SIMPLE_JWT = {
 #     # トークンをJWTに設定
 #     'AUTH_HEADER_TYPES': ('JWT',),
@@ -168,8 +163,6 @@ CORS_ORIGIN_ALLOW_ALL = True
 #     'http://localhost:8080',
 #     'http://127.0.0.1:8080',
 # )
-
-
 
 
 AUTH_USER_MODEL = 'accounts.CustomUser'
