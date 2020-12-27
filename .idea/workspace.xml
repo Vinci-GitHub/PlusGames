@@ -29,10 +29,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33b4fe0e-081e-40f1-b3df-2b2f10703e23" name="デフォルト変更リスト" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/fixtures/accounts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/fixtures/permissions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/fixtures/roles.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/accounts/authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/accounts/authentication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/accounts/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/accounts/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/accounts/migrations/0002_auto_20201208_1548.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/accounts/migrations/0003_auto_20201208_1645.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/accounts/migrations/0004_auto_20201208_1646.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/accounts/migrations/0005_auto_20201216_0611.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/accounts/migrations/0006_remove_customuser_username.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/accounts/migrations/0007_auto_20201220_1955.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/accounts/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/accounts/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/apiv1/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apiv1/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/trade/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/trade/migrations/0001_initial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +148,31 @@
       <workItem from="1607754888163" duration="296000" />
       <workItem from="1607755204998" duration="7306000" />
       <workItem from="1607816366474" duration="56181000" />
+      <workItem from="1608589827421" duration="512000" />
+      <workItem from="1608590405538" duration="305000" />
+      <workItem from="1608590721358" duration="151000" />
+      <workItem from="1608590883461" duration="798000" />
+      <workItem from="1608591704077" duration="1305000" />
+      <workItem from="1608594707463" duration="2050000" />
+      <workItem from="1608602240753" duration="633000" />
+      <workItem from="1608602899987" duration="633000" />
+      <workItem from="1608604458098" duration="1792000" />
+      <workItem from="1608606285537" duration="2868000" />
+      <workItem from="1608609341500" duration="3194000" />
+      <workItem from="1608633884848" duration="6969000" />
+      <workItem from="1608709459698" duration="8355000" />
+      <workItem from="1608765800841" duration="1864000" />
+      <workItem from="1608774468804" duration="902000" />
+      <workItem from="1608775943333" duration="1778000" />
+      <workItem from="1608777807947" duration="507000" />
+      <workItem from="1608778413171" duration="1888000" />
+      <workItem from="1608870793493" duration="1196000" />
+      <workItem from="1608872163800" duration="1350000" />
+      <workItem from="1608874445111" duration="5043000" />
+      <workItem from="1608936509937" duration="1369000" />
+      <workItem from="1608939644534" duration="672000" />
+      <workItem from="1608941427300" duration="537000" />
+      <workItem from="1608941979081" duration="23370000" />
     </task>
     <servers />
   </component>

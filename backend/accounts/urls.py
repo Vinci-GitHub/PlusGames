@@ -9,3 +9,13 @@ urlpatterns = [
     path('accounts', AuthenticatedUser.as_view()),
     path('logout', logout),
 ]
+
+
+
+
+
+
+
+
+
+

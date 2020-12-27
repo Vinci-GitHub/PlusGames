@@ -6,7 +6,7 @@ from accounts.models import CustomUser
 class AccountsSerializer(serializers.ModelSerializer):
     class Meta:
         model = CustomUser
-        fields = ['id', 'username', 'email', 'password']
+        fields = ['id', 'first_name', 'last_name', 'email', 'password']
         extra_kwargs = {
             'password': {'write_only': True}
         }
@@ -20,5 +20,3 @@ class AccountsSerializer(serializers.ModelSerializer):
         return instance
 
 
-
-# aaaaaaaaaaaaaaaaa
