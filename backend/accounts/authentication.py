@@ -32,7 +32,7 @@ class JWTAuthentication(BaseAuthentication):
             raise exceptions.AuthenticationFailed('unauthenticated')
 
         accounts = get_user_model().objects.filter(
-            id=payload['user_id']).first()
+            id=payload['accounts_id']).first()
 
         if accounts is None:
             raise exceptions.AuthenticationFailed('User not found!')
