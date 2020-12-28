@@ -130,23 +130,23 @@ STATIC_URL = '/static/'
 #################################################
 # REST Framework
 #################################################
-REST_FRAMEWORK = {
-    'PAGE_SIZE': 4,
-    'DEFAULT_PAGINATION_CLASS':
-        'rest_framework.pagination.PageNumberPagination',
+# REST_FRAMEWORK = {
+#     'PAGE_SIZE': 4,
+#     'DEFAULT_PAGINATION_CLASS':
+#         'rest_framework.pagination.PageNumberPagination',
     # アクセス許可を判断するクラスを指定します。views.py の処理を実行する際に判断します
     # 'DEFAULT_PERMISSION_CLASSES': (
     #     'rest_framework.permissions.IsAuthenticated',
     # ),
     # 認証に使うクラスを指定します
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework.authentication.BasicAuthentication',
-        'rest_framework.authentication.SessionAuthentication',
+    # 'DEFAULT_AUTHENTICATION_CLASSES': (
+    #     'rest_framework.authentication.BasicAuthentication',
+    #     'rest_framework.authentication.SessionAuthentication',
 
-    ),
-    'NON_FIELD_ERRORS_KEY': 'detail',
-    'TEST_REQUEST_DEFAULT_FORMAT': 'json'
-}
+    # ),
+    # 'NON_FIELD_ERRORS_KEY': 'detail',
+    # 'TEST_REQUEST_DEFAULT_FORMAT': 'json'
+# }
 
 # SIMPLE_JWT = {
 #     # トークンをJWTに設定

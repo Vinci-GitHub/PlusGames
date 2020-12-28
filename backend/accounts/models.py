@@ -29,7 +29,6 @@ class CustomUser(AbstractUser):
     password = models.CharField(
         verbose_name='パスワード',
         max_length=200,
-        null=True
     )
     role = models.ForeignKey(
         Role,
