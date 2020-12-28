@@ -1,7 +1,6 @@
 from django.urls import path
 
-from .views import register, login, AuthenticatedUser, logout, \
-    PermissionAPIView, RoleViewSet
+from .views import register, login, AuthenticatedUser, logout, PermissionAPIView, RoleViewSet
 
 urlpatterns = [
     path('register', register),
@@ -9,7 +8,7 @@ urlpatterns = [
     path('logout', logout),
     path('accounts', AuthenticatedUser.as_view()),
     path('permissions', PermissionAPIView.as_view()),
-    path('role', RoleViewSet.as_view({
+    path('roles', RoleViewSet.as_view({
         'get': 'list',
         'post': 'create'
     })),
