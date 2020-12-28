@@ -29,33 +29,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33b4fe0e-081e-40f1-b3df-2b2f10703e23" name="デフォルト変更リスト" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/fixtures/accounts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/fixtures/permissions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/fixtures/roles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/accounts/authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/accounts/authentication.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/accounts/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/accounts/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/accounts/migrations/0002_auto_20201208_1548.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/accounts/migrations/0003_auto_20201208_1645.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/accounts/migrations/0004_auto_20201208_1646.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/accounts/migrations/0005_auto_20201216_0611.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/accounts/migrations/0006_remove_customuser_username.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/accounts/migrations/0007_auto_20201220_1955.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/accounts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/accounts/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/accounts/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/accounts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apiv1/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apiv1/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/trade/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/trade/migrations/0001_initial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +49,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/git-vinci/PlusGames" />
+      </set>
+    </option>
   </component>
   <component name="JupyterTrust" id="46872935-2aab-45bb-a1aa-c17965454187" />
   <component name="ProjectId" id="1jdWNYaRyibV2Yy24fnJTctALjA" />
@@ -97,7 +81,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="notes" value="- 1ポモ&#10;    - [x]  メンタさんに返信する&#10;&#10;    →Django作成中&#10;&#10;    trade/apitrade/urls.pyで→int:pk  &#10;&#10;    serializersのfileds　all&#10;&#10;    apiのviewsの中身&#10;&#10;2ポモ&#10;&#10;- [ ]  tradeのモデルを実際にmigrateしてDBに反映&#10;&#10;    apiから項目入力でpostできるかを試して成功&#10;&#10;    管理画面に反映されておらず&#10;&#10;    admin.pyにtradeの追記がなかったため&#10;&#10;&#10;vueとdjangoの連携のベスプラがわからず&#10;方法としてはwebpackを使う方法か&#10;Vue cliを使ってやる方法があって&#10;実践的な技術書ではどっちも書かれておらず&#10;どうやって連携させているのか不明で止まってしまった&#10;&#10;ベストプラクティスだけで学習して行きたいと思うがゆえに&#10;あんまり理解ができないのに&#10;浅い理解で決断を下そうとするから時間がかかっている&#10;&#10;完了主義を実践していこう&#10;また、ベスプラに関してはやっていってわかることもあるかとは思うし&#10;&#10;学習したことをToolとして活用しまくることで手続き型の記憶にする&#10;&#10;思い込む力をおれは別に使っていたと気づいた&#10;原因は自分の不安からくるものだった&#10;本当にあっているかな、、、&#10;間違っていたら恥ずかしいとか、、、&#10;できないと周りに思われたくないとか、できない自分を見るのが嫌だとか、、、&#10;そういう思考が働いていたと気づいた&#10;&#10;シンプルに&#10;チャレンジを楽しむ&#10;わからないところは5秒考えて出てこなかったら&#10;調べたり、勉強したところだったら振り返ること&#10;&#10;効率的にを考えすぎて動けてない&#10;少ない情報でも見つけたら方法を比較して整理して&#10;行動すればよい&#10;&#10;&#10;&#10;トライして、成長していけるのに失敗しない方法ばかりとっていた&#10;例)検索しまくって浅い知識でどれがいいのかを判断する&#10;&#10;でも違うどんどん行動していく&#10;失敗してもいい&#10;チャレンジしないと全然成長しない" />
     <property name="page_titles" value="Notes&#10;views.py" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="views.py" value="" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
