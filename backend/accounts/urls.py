@@ -1,6 +1,8 @@
 from django.urls import path
 
-from .views import register, login, AuthenticatedUser, logout, PermissionAPIView, RoleViewSet
+from .views import (
+    register, login, AuthenticatedUser, logout, PermissionAPIView, RoleViewSet
+)
 
 urlpatterns = [
     path('register', register),
@@ -18,13 +20,3 @@ urlpatterns = [
         'delete': 'destroy'
     })),
 ]
-
-
-
-
-
-
-
-
-
-
