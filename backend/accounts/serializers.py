@@ -33,7 +33,17 @@ class RoleSerializer(serializers.ModelSerializer):
         return instance
 
 
+class RoleRelatedField(serializers.RelatedField):
+    def to_representation(self, instance):
+        return RoleSerializer(instance).data
+
+    def to_internal_value(self, data):
+        return self.queryset.get(pk=data)
+
+
 class AccountSerializer(serializers.ModelSerializer):
+    role = RoleRelatedField(many=False, queryset=Role.objects.all())
+
     class Meta:
         model = CustomUser
         fields = ['id', 'first_name', 'last_name', 'email', 'password', 'role']
