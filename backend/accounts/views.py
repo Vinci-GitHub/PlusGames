@@ -1,4 +1,4 @@
-from rest_framework import exceptions, viewsets, status
+from rest_framework import exceptions, viewsets, status, generics, mixins
 from rest_framework.decorators import api_view
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
@@ -6,7 +6,7 @@ from rest_framework.views import APIView
 
 from .authentication import generate_access_token, JWTAuthentication
 from .models import CustomUser, Permission, Role
-from .serializers import AccountsSerializer, PermissionSerializer, RoleSerializer
+from .serializers import AccountSerializer, PermissionSerializer, RoleSerializer
 
 
 # データを設定できるようにレジスタ関数を作成する
@@ -17,7 +17,7 @@ def register(request):
     if data['password'] != data['password_confirm']:
         raise exceptions.APIException('Passwords do not match!')
 
-    serializer = AccountsSerializer(data=data)
+    serializer = AccountSerializer(data=data)
     serializer.is_valid(raise_exception=True)
     serializer.save()
     return Response(serializer.data)
@@ -28,17 +28,17 @@ def login(request):
     email = request.data.get('email')
     password = request.data.get('password')
 
-    accounts = CustomUser.objects.filter(email=email).first()
+    account = CustomUser.objects.filter(email=email).first()
 
-    if accounts is None:
+    if account is None:
         raise exceptions.AuthenticationFailed('User not found!')
 
-    if not accounts.check_password(password):
+    if not account.check_password(password):
         raise exceptions.AuthenticationFailed('Incorrect password')
 
     response = Response()
 
-    token = generate_access_token(accounts)
+    token = generate_access_token(account)
     response.set_cookie(key='jwt', value=token, httponly=True)
     response.data = {
         'jwt': token
@@ -63,7 +63,7 @@ class AuthenticatedUser(APIView):
     permission_classes = [IsAuthenticated]
 
     def get(self, request):
-        serializer = AccountsSerializer(request.accounts)
+        serializer = AccountSerializer(request.account)
 
         return Response({
             'data': serializer.data
@@ -124,3 +124,39 @@ class RoleViewSet(viewsets.ViewSet):
         role.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
+
+class AccountGenericAPIView(
+    generics.GenericAPIView,
+    mixins.ListModelMixin,
+    mixins.RetrieveModelMixin,
+    mixins.CreateModelMixin,
+    mixins.UpdateModelMixin,
+    mixins.DestroyModelMixin
+):
+    authentication_classes = [JWTAuthentication]
+    permission_classes = [IsAuthenticated]
+    queryset = CustomUser.objects.all()
+    serializer_class = AccountSerializer
+
+    def get(self, request, pk=None):
+        if pk:
+            return Response({
+                'data': self.retrieve(request, pk).data
+            })
+
+        return Response({
+            'data': self.list(request).data
+        })
+
+    def post(self, request):
+        return Response({
+            'data': self.create(request).data
+        })
+
+    def put(self, request, pk=None):
+        return Response({
+            'data': self.update(request, pk).data
+        })
+
+    def delete(self, request, pk=None):
+        return self.destroy(request, pk)
