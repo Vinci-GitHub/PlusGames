@@ -32,7 +32,6 @@ INSTALLED_APPS = [
     'djoser',
     'corsheaders',
     # My applications
-    'apiv1.apps.Apiv1Config',
     'accounts.apps.AccountsConfig',
     'trade.apps.TradeConfig'
 ]
