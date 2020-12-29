@@ -6,9 +6,9 @@ from rest_framework import exceptions
 from rest_framework.authentication import BaseAuthentication
 
 
-def generate_access_token(accounts):
+def generate_access_token(account):
     payload = {
-        'accounts_id': accounts.id,
+        'account_id': account.id,
         'exp': datetime.datetime.utcnow() + datetime.timedelta(minutes=60),
         'iat': datetime.datetime.utcnow()
     }
@@ -31,10 +31,10 @@ class JWTAuthentication(BaseAuthentication):
         except jwt.ExpiredSignatureError:
             raise exceptions.AuthenticationFailed('unauthenticated')
 
-        accounts = get_user_model().objects.filter(
-            id=payload['accounts_id']).first()
+        account = get_user_model().objects.filter(
+            id=payload['account_id']).first()
 
-        if accounts is None:
+        if account is None:
             raise exceptions.AuthenticationFailed('User not found!')
 
-        return (accounts, None)
+        return (account, None)
