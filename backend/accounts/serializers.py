@@ -33,10 +33,10 @@ class RoleSerializer(serializers.ModelSerializer):
         return instance
 
 
-class AccountsSerializer(serializers.ModelSerializer):
+class AccountSerializer(serializers.ModelSerializer):
     class Meta:
         model = CustomUser
-        fields = ['id', 'first_name', 'last_name', 'email', 'password']
+        fields = ['id', 'first_name', 'last_name', 'email', 'password', 'role']
         extra_kwargs = {
             'password': {'write_only': True}
         }
@@ -48,5 +48,3 @@ class AccountsSerializer(serializers.ModelSerializer):
             instance.set_password(password)
         instance.save()
         return instance
-
-
