@@ -29,10 +29,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33b4fe0e-081e-40f1-b3df-2b2f10703e23" name="デフォルト変更リスト" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/config/pagination.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/accounts/authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/accounts/authentication.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/accounts/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/accounts/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/accounts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/accounts/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
