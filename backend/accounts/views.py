@@ -4,6 +4,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
+from config.pagination import CustomPagination
 from .authentication import generate_access_token, JWTAuthentication
 from .models import CustomUser, Permission, Role
 from .serializers import AccountSerializer, PermissionSerializer, RoleSerializer
@@ -137,6 +138,7 @@ class AccountGenericAPIView(
     permission_classes = [IsAuthenticated]
     queryset = CustomUser.objects.all()
     serializer_class = AccountSerializer
+    pagination_class = CustomPagination
 
     def get(self, request, pk=None):
         if pk:
@@ -144,9 +146,7 @@ class AccountGenericAPIView(
                 'data': self.retrieve(request, pk).data
             })
 
-        return Response({
-            'data': self.list(request).data
-        })
+        return self.list(request)
 
     def post(self, request):
         return Response({
