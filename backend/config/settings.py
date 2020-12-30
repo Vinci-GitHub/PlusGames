@@ -33,7 +33,6 @@ INSTALLED_APPS = [
     'corsheaders',
     # My applications
     'accounts.apps.AccountsConfig',
-    'trade.apps.TradeConfig'
 ]
 
 MIDDLEWARE = [
