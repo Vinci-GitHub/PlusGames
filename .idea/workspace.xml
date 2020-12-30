@@ -30,34 +30,7 @@
   <component name="ChangeListManager">
     <list default="true" id="33b4fe0e-081e-40f1-b3df-2b2f10703e23" name="デフォルト変更リスト" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/accounts/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/accounts/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/accounts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apiv1/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apiv1/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apiv1/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apiv1/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apiv1/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apiv1/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apiv1/serializer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apiv1/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apiv1/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apiv1/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/trade/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/trade/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/trade/apitrade/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/trade/apitrade/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/trade/apitrade/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/trade/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/trade/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/trade/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/trade/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/trade/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/trade/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/trade/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/trade/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,6 +155,8 @@
       <workItem from="1608939644534" duration="672000" />
       <workItem from="1608941427300" duration="537000" />
       <workItem from="1608941979081" duration="23370000" />
+      <workItem from="1609306431925" duration="21000" />
+      <workItem from="1609307358826" duration="1061000" />
     </task>
     <servers />
   </component>
