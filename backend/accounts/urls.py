@@ -2,7 +2,7 @@ from django.urls import path
 
 from .views import (
     register, login, AuthenticatedUser, logout, PermissionAPIView, RoleViewSet,
-    AccountGenericAPIView
+    AccountGenericAPIView, ProfileInfoAPIView, ProfilePasswordAPIView
 )
 
 urlpatterns = [
@@ -20,6 +20,8 @@ urlpatterns = [
         'put': 'update',
         'delete': 'destroy'
     })),
+    path('accounts/info', ProfileInfoAPIView.as_view()),
+    path('accounts/password', ProfilePasswordAPIView.as_view()),
     path('accounts', AccountGenericAPIView.as_view()),
-    path('accounts/<str:pk>', AccountGenericAPIView.as_view())
+    path('accounts/<str:pk>', AccountGenericAPIView.as_view()),
 ]
