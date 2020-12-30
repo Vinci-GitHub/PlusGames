@@ -64,10 +64,10 @@ class AuthenticatedUser(APIView):
     permission_classes = [IsAuthenticated]
 
     def get(self, request):
-        serializer = AccountSerializer(request.account)
-
+        data = AccountSerializer(request.account).data
+        data['permissions'] = [p['name'] for p in data['role']['permissions']]
         return Response({
-            'data': serializer.data
+            'data': data
         })
 
 
