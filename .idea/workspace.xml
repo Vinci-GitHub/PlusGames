@@ -29,10 +29,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33b4fe0e-081e-40f1-b3df-2b2f10703e23" name="デフォルト変更リスト" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/fixtures/orders.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/orders/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/orders/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/82783fb5-34f7-45f4-99e6-46a61dad3138/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +76,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新規スクラッチ・ファイル" value="Python" />
     <property name="current_page" value="1" />
     <property name="font_size" value="12" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/orders" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,6 +98,9 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/orders" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/frontends" />
