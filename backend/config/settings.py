@@ -155,9 +155,7 @@ STATIC_URL = '/static/'
 #     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60)
 # }
 
-# CORSの設定
-# すべて許可
-CORS_ORIGIN_ALLOW_ALL = True
+
 # CORS_ORIGIN_ALLOW_ALL = False
 # CORS_ORIGIN_WHITELIST =(
 #     'http://localhost:8080',
@@ -169,3 +167,8 @@ AUTH_USER_MODEL = 'accounts.CustomUser'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
+# CORSの設定
+# すべて許可
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_ALL = True
