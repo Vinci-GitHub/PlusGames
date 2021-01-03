@@ -28,9 +28,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33b4fe0e-081e-40f1-b3df-2b2f10703e23" name="デフォルト変更リスト" comment="">
-      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="33b4fe0e-081e-40f1-b3df-2b2f10703e23" name="デフォルト変更リスト" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
