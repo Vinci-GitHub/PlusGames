@@ -29,21 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33b4fe0e-081e-40f1-b3df-2b2f10703e23" name="デフォルト変更リスト" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/frontend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.env.production" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/vue.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +78,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="notes" value="- 1ポモ&#10;    - [x]  メンタさんに返信する&#10;&#10;    →Django作成中&#10;&#10;    trade/apitrade/urls.pyで→int:pk  &#10;&#10;    serializersのfileds　all&#10;&#10;    apiのviewsの中身&#10;&#10;2ポモ&#10;&#10;- [ ]  tradeのモデルを実際にmigrateしてDBに反映&#10;&#10;    apiから項目入力でpostできるかを試して成功&#10;&#10;    管理画面に反映されておらず&#10;&#10;    admin.pyにtradeの追記がなかったため&#10;&#10;&#10;vueとdjangoの連携のベスプラがわからず&#10;方法としてはwebpackを使う方法か&#10;Vue cliを使ってやる方法があって&#10;実践的な技術書ではどっちも書かれておらず&#10;どうやって連携させているのか不明で止まってしまった&#10;&#10;ベストプラクティスだけで学習して行きたいと思うがゆえに&#10;あんまり理解ができないのに&#10;浅い理解で決断を下そうとするから時間がかかっている&#10;&#10;完了主義を実践していこう&#10;また、ベスプラに関してはやっていってわかることもあるかとは思うし&#10;&#10;学習したことをToolとして活用しまくることで手続き型の記憶にする&#10;&#10;思い込む力をおれは別に使っていたと気づいた&#10;原因は自分の不安からくるものだった&#10;本当にあっているかな、、、&#10;間違っていたら恥ずかしいとか、、、&#10;できないと周りに思われたくないとか、できない自分を見るのが嫌だとか、、、&#10;そういう思考が働いていたと気づいた&#10;&#10;シンプルに&#10;チャレンジを楽しむ&#10;わからないところは5秒考えて出てこなかったら&#10;調べたり、勉強したところだったら振り返ること&#10;&#10;効率的にを考えすぎて動けてない&#10;少ない情報でも見つけたら方法を比較して整理して&#10;行動すればよい&#10;&#10;&#10;&#10;トライして、成長していけるのに失敗しない方法ばかりとっていた&#10;例)検索しまくって浅い知識でどれがいいのかを判断する&#10;&#10;でも違うどんどん行動していく&#10;失敗してもいい&#10;チャレンジしないと全然成長しない" />
     <property name="page_titles" value="Notes&#10;views.py" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="views.py" value="" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -190,5 +176,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/frontend" />
+    </ignored-roots>
   </component>
 </project>
